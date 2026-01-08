@@ -1,0 +1,9 @@
+[server]
+fileWatcherType = "poll"
+headless = true
+
+[theme]
+primaryColor = "#800020"
+backgroundColor = "#FFFFE0"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#36454F"
