@@ -6,7 +6,7 @@ from pathlib import Path
 # Constantes do Sistema
 MARCAS = [
     "Eudora", "O Boticário", "Jequiti", "Avon", "Mary Kay", "Natura", 
-    "Oui-Original-Unique-Individuel", "Pierre Alexander", "Tupperware", "Outra"
+    "Oui-Original-Unique-Individuel", "Pierre Alexander", "Tupperware", "Pierre-cosmeticos" "Outra"
 ]
 
 ESTILOS = [
