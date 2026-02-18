@@ -1,5 +1,5 @@
-streamlit==1.53.0
-pandas==2.3.3
-Pillow>=12.0.0
-bcrypt==4.3.0
-fpdf2==2.8.5
+streamlit
+pandas
+Pillow
+bcrypt
+fpdf2

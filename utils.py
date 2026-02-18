@@ -312,4 +312,12 @@ def generate_pdf(products_df):
         return b""
 
 def convert_df_to_csv(df):
+    # Criamos uma cópia para não afetar o DataFrame original da tela
+    df_export = df.copy()
+    
+    # Se a coluna image existir, converte os bytes para string Base64
+    if 'image' in df_export.columns:
+        df_export['image'] = df_export['image'].apply(
+            lambda x: base64.b64encode(x).decode('utf-8') if isinstance(x, bytes) else ""
+        )
     return df.to_csv(index=False).encode('utf-8')
